@@ -1,32 +1,40 @@
-  <html>
-    <head>
-      <title>html_boilerplate</title>
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-    <div id="content">
-      <div id="nav">
-        <div id="logo"><img src="http://imgur.com/zOn8e0v" /></div>
-        <div id="title">Get your Discount code Here!</div>
-      </div>
-      <div class="move" id="player_move">
-        <h2>Player</h2>
-        <div class="playerMove" id="getplayerMove"> 00</div>
-        <input type="text" placeholder="enter a move" />
-        <input id="Rock" type="button" value="Rock" />
-        <input id="Paper" type="button" value="Paper" />
-        <input id="Scissors" type="button" value="Scissors" />
-      </div>
-      <div class="move" id="computer_move">
-        <h2>Computer</h2>
-        <div class="playerMove" id="getplayerMove"> 00</div>
-        <input type="text" placeholder="computerMove" />
-        <input id="Rock" type="button" value="Rock" />
-        <input id="Paper" type="button" value="Paper" />
-        <input id="Scissors" type="button" value="Scissors" />
-      </div>
-      <div class="clear"></div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="http://i.imgur.com/3x8LnKp.png" alt="logo">
+    </header>
+    <div id="title">
+      <button class="button-green pure-button-primary">Get Discount!</button>
     </div>
-    <script src="js/main.js"></script>
-  </body>
+    <div class="player">
+      <div>
+        <h2>Player</h2>
+        <span id="playerScore"> 00</span>
+        <input type="text" placeholder="Enter a move" />
+        <input id="Rock" type="button" value="Rock" />
+        <input id="Paper" type="button" value="Paper" />
+        <input id="Scissors" type="button" value="Scissors" />
+      </div>
+    </div>
+    <!-- end player-move -->
+    <div class="player">
+      <div>
+        <h2>Computer</h2>
+        <span id="computerScore"> 00</span>
+        <input type="text" placeholder="Computer move" />
+      </div>
+    </div>
+    <!-- end player-move -->
+  </div>
+</body>
+
 </html>
