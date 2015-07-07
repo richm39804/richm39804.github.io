@@ -7,7 +7,7 @@
 
 ##User Stories
 
--As a user I will want to make a choice and see the result in a placeholder bar because this will let me know if I have one a round
+-As a user I will want to make a choice and see the result in a placeholder bar because this will let me know if I have won a round
 
 -As a user I will want to play to three, and see my discount code if I have won
 
