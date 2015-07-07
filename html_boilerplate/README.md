@@ -11,6 +11,6 @@
 
 -As a user I will want to play to three, and see my discount code if I have won
 
--As an admin. I will want to limit game reset to every 24hrs because this will preserve losses from dicount code over-issue
+-As an admin. I will want to limit game reset to every 30min. per ip address/email because this will preserve losses from dicount code over-issue
 
 
