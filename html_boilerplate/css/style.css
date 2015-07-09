@@ -9,23 +9,61 @@ body {
 }
 
 header img {
-  width: 1000px;
+  width: 700px;
 }
 
 h2 {
   width: 200px;
 }
 
-.player {
+#playerMove {
   width: 360px;
   /*border: 1px solid #000;*/
   
   margin: 0 auto;
 }
 
-.player div {
-  width: 400px;
-  margin: 0 auto;
+.player {
+  width: 960px;
+  height: 200px;
+}
+
+#gamestatus {
+  display: inline-block;
+  height: 165px;
+  width: 260px;
+  border: 1px solid black;
+}
+
+.button {
+  display: inline-block;
+  height: 165px;
+  width: 260px;
+  border: 1px solid black;
+}
+
+#rock {
+  background-image: url('../rock.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#paper {
+  background-image: url('../paper.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#scissors {
+  background-image: url('../scissors.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#computer {
+  background-image: url('../computer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .button-green {
@@ -38,26 +76,6 @@ h2 {
 .button-green {
   background: rgb(28, 184, 65);
   /* this is a green */
-}
-
-#Rock {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-#Rock {
-  background: rgb(116, 120, 128);
-}
-
-#Scissors {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-}
-
-#Scissors {
-  background: rgb(11, 10, 10);
 }
 /*
 <span id="computerScore"> 00</span>

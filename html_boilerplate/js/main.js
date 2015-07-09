@@ -1,3 +1,6 @@
+ console.log('activate framework');
+
+
  function getInput() {
    console.log("Please choose either 'rock', 'paper', or 'scissors'.")
    return prompt();
@@ -22,6 +25,9 @@
 
  }
 
+
+
+
  function getComputerMove(move) {
    return move || randomPlay();
 
@@ -42,6 +48,10 @@
 
  }
 
+ //
+
+
+
  function playToFive() {
 
    console.log("Let's play Rock, Paper, Scissors");
@@ -53,11 +63,14 @@
      var playerMove = getPlayerMove();
      console.log(playerMove);
 
+
      var computerMove = getComputerMove();
      console.log(computerMove);
 
      var winner = getWinner(playerMove, computerMove);
      console.log(winner);
+
+
 
      if (winner === 'player') {
        playerWins++;
@@ -73,7 +86,3 @@
    console.log('Took the farm!!!')
 
  }
-
-
-
- playToFive();
