@@ -40,17 +40,22 @@
  $('#rock').on('click', function() {
    $('#playerMove').html("ROCK");
    move = "ROCK";
-
+   getcomputerMove();
+   checkWinner();
  })
 
  $('#paper').on('click', function() {
    $('#playerMove').html("PAPER");
    move = "PAPER";
+   getcomputerMove();
+   checkWinner();
  })
 
  $('#scissors').on('click', function() {
    $('#playerMove').html("SCISSORS");
    move = "SCISSORS";
+   getcomputerMove();
+   checkWinner();
  })
 
 
@@ -59,6 +64,15 @@
 
  function getcomputerMove() {
    computerMove = randomPlay();
+   $('#computerMove').html(computerMove);
+
+ }
+ var playerScore = 0;
+ var computerScore = 0;
+
+
+ function checkWinner() {
+   ('#playermove') === this.winner
  }
 
 
